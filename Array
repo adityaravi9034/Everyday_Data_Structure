@@ -7,3 +7,16 @@ Properties of arrays
   occupy 4 bytes.
 ● Elements of the array are stored in contiguous memory locations. For example : 200 is the starting address (base address) assigned to the first element of the array and
   each element of the array is of integer data type occupying 4 bytes in memory.
+
+
+Where can arrays be used?
+● Arrays should be used where the number of elements to be stored is already
+known.
+● Arrays are commonly used in computer programs to organize data so that a
+related set of values can be easily sorted or searched.
+● Generally, when we require very fast access times, we usually prefer arrays
+since they provide O(1) access times.
+● Arrays work well when we have to organize data in multidimensional format.
+We can declare arrays of as many dimensions as we want.
+● If the index of the element to be modified is known beforehand, it can be
+efficiently modified using arrays due to quick access time and mutability
