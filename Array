@@ -51,3 +51,8 @@ elements to the left.
 deleting an element at index i is O(N - i).
  
 ● Deleting an element from the beginning involves moving all elements starting from index 1 to left by one position, and takes O(N) time.
+
+
+Disclaimer - The following notes are from Coding Ninjas which I used for studying myself.
+Notes from Coding Ninjas
+
