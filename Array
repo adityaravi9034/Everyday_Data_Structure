@@ -1,7 +1,7 @@
 An array is defined as a fixed-size collection of elements of the same data type stored in contiguous memory locations. 
 It is the simplest data structure where each element of the array can be accessed by using its index.
 
-Properties of arrays
+Properties of arrays.
 
 ● Each element of the array is of the same data type and same size. For example:For an array of integers with the int data type, each element of the array will
   occupy 4 bytes.
