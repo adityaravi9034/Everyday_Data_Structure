@@ -28,7 +28,7 @@ def printMinDiffPairs(arr , n):
             print( "(" + str(arr[i-1]) + ", "
                  + str(arr[i]) + "), ", end = '')
  
-# Driver code
+
 arr = [5, 3, 2, 4, 1]
 n = len(arr)
 printMinDiffPairs(arr , n)
