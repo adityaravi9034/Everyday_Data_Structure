@@ -1,0 +1,57 @@
+"""Given a sequence arr[] of size n, Write a function int equilibrium(int[] arr, int n) that returns an equilibrium index (if any) or -1 if no equilibrium index exists. 
+
+The equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes. 
+
+Examples: 
+
+Input: A[] = {-7, 1, 5, 2, -4, 3, 0} 
+Output: 3 
+3 is an equilibrium index, because: 
+A[0] + A[1] + A[2] = A[4] + A[5] + A[6]
+
+
+Input: A[] = {1, 2, 3} 
+Output: -1 
+"""
+
+
+# Python3 program to find equilibrium
+# index of an array
+ 
+# function to find the equilibrium index
+ 
+ 
+def equilibrium(arr):
+    leftsum = 0
+    rightsum = 0
+    n = len(arr)
+ 
+    # Check for indexes one by one
+    # until an equilibrium index is found
+    for i in range(n):
+        leftsum = 0
+        rightsum = 0
+ 
+        # get left sum
+        for j in range(i):
+            leftsum += arr[j]
+ 
+        # get right sum
+        for j in range(i + 1, n):
+            rightsum += arr[j]
+ 
+        # if leftsum and rightsum are same,
+        # then we are done
+        if leftsum == rightsum:
+            return i
+ 
+    # return -1 if no equilibrium index is found
+    return -1
+ 
+ 
+# Driver code
+if __name__ == "__main__":
+    arr = [-7, 1, 5, 2, -4, 3, 0]
+ 
+    # Function call
+    print(equilibrium(arr))
