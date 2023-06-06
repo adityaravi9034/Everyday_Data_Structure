@@ -3,7 +3,7 @@ A recursive method solves a problem by calling a copy of itself to work on a sma
 Each time a function calls itself with a slightly simpler version of the original problem. This
 sequence of smaller problems must eventually converge on a base case.
 
-Working of recursion 
+Working of recursion. 
 
 We can define the steps of the recursive approach by summarizing the above three steps:
 ● Base case: A recursive function must have a terminating condition at which
