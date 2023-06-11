@@ -1,4 +1,7 @@
-"""tree implementation"""
+"""tree implementation
+delete node 
+search node
+add child"""
 
 class BinarySearchTreeNode():
     def __init__(self,data):
