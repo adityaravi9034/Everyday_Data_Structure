@@ -1,5 +1,6 @@
 """Question:
-You are given a binary tree where each node contains an integer value. Write a function to determine the maximum depth of the tree, which is defined as the number of nodes along the longest path from the root node down to the farthest leaf node.
+You are given a binary tree where each node contains an integer value. Write a function to determine the maximum depth of the tree, 
+which is defined as the number of nodes along the longest path from the root node down to the farthest leaf node.
 
 Write a function maxDepth(root) that takes the root of the binary tree as input and returns the maximum depth of the tree."""
 
