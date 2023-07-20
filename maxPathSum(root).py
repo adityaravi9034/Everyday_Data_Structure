@@ -1,6 +1,8 @@
 """
 Question:
-You are given a binary tree where each node contains an integer value. Write a function to find the maximum path sum in the tree. A path in the tree is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path sum is the sum of the values of the nodes in the path.
+You are given a binary tree where each node contains an integer value. Write a function to find the maximum path sum in the tree. 
+A path in the tree is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. 
+The path sum is the sum of the values of the nodes in the path.
 
 Write a function maxPathSum(root) that takes the root of the binary tree as input and returns the maximum path sum in the tree."""
 
