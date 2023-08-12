@@ -1,7 +1,7 @@
 """Question:
 You are given a binary tree where each node contains an integer value. Write a function to determine if the tree is a binary search tree (BST) or not. A binary search tree is a binary tree in which the values of all nodes in the left subtree are less than the value of the root node, and the values of all nodes in the right subtree are greater than the value of the root node.
 
-Write a function  isBST(root) that takes the root of the binary tree as input and returns True  if the tree is a binary search tree, and False otherwise."""
+Write a function  isBST(root) that takes the root of the binary tree as input and returns True  if the tree is a binary search tree, and  False otherwise."""
 
 class TreeNode:
     def __init__(self, value):
