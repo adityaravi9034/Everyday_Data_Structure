@@ -2,6 +2,7 @@
 
 Examples: 
 
+
 Input: arr= {4, 6, 3, 7}
 Output: 3
 Explanation: There are three triangles 
